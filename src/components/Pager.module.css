@@ -1,0 +1,26 @@
+.pager {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 1px solid #A79277;
+    border-radius: 5px;
+}
+
+.pager__jump-btns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pager__jump-btn {
+    width: 20px;
+}
+
+.pager__left-step-btn {
+    border-right: 1px solid #A79277;
+}
+
+.pager__right-step-btn {
+    border-left: 1px solid #A79277;
+}
